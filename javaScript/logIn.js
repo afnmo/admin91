@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
         if (email === validEmail && password === validPassword) {
           showAlert("Login successful!");
-            window.location.href = "adminHomepage.html"; // Redirect to the admin homepage
+            window.location.href = "Html/adminHomepage.html"; // Redirect to the admin homepage
         } else {
             showAlert("Incorrect email or password.");
         }
