@@ -436,21 +436,21 @@ const loggedInUsersData = {
     }]
 };
 
-// Initialize daily logged-in users bar chart
-const ctx2 = document.getElementById('loggedInUsersChart').getContext('2d');
-new Chart(ctx2, {
-    type: 'bar',
-    data: loggedInUsersData,
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true,
-                stepSize: 1, // Set step size to 1 to ensure only integers are displayed
-                precision: 0 
-            }
-        }
-    }
-});
+// // Initialize daily logged-in users bar chart
+// const ctx2 = document.getElementById('loggedInUsersChart').getContext('2d');
+// new Chart(ctx2, {
+//     type: 'bar',
+//     data: loggedInUsersData,
+//     options: {
+//         scales: {
+//             y: {
+//                 beginAtZero: true,
+//                 stepSize: 1, // Set step size to 1 to ensure only integers are displayed
+//                 precision: 0 
+//             }
+//         }
+//     }
+// });
 
 
     try {
