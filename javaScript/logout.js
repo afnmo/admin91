@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function signOut() {
     auth.signOut().then(() => {
         // Sign-out successful.
-        window.location.href = "login.html";
+        window.location.href = "../login.html";
         console.log("User has been successfully logged out.");
     }).catch((error) => {
         // An error happened.
